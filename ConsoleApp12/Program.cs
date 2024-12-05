@@ -5,7 +5,7 @@ using YoutubeExplode;
 using YoutubeExplode.Converter;
 using YoutubeExplode.Videos.Streams;
 
-
+// Интерфейс команды
 public interface ICommand
 {
     Task Execute(YoutubeClient youtube, string videoUrl);
@@ -84,4 +84,3 @@ public class Program
         }
     }
 }
-
